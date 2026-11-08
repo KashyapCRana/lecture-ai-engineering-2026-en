@@ -102,3 +102,37 @@ def make_quiz(lecture: int) -> str:
         },
         ensure_ascii=False,
     )
+
+
+def save_learning_log(topic: str, note: str) -> str:
+    """Save a learning record in the learning_log directory.
+
+    Use this tool when a learner asks to save something they learned.
+    The user must approve the operation before this tool is executed.
+    """
+    from datetime import datetime, timezone
+    from uuid import uuid4
+
+    if not topic.strip() or not note.strip():
+        return "Cannot save an empty topic or note."
+
+    log_dir = DATA_DIR.parent / "learning_log"
+    log_dir.mkdir(parents=True, exist_ok=True)
+
+    now = datetime.now(timezone.utc)
+    timestamp = now.strftime("%Y%m%dT%H%M%SZ")
+    filename = f"{timestamp}_{uuid4().hex[:8]}.json"
+    filepath = log_dir / filename
+
+    record = {
+        "topic": topic,
+        "note": note,
+        "created_at": now.isoformat(),
+    }
+
+    filepath.write_text(
+        json.dumps(record, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    return f"Saved learning record to learning_log/{filename}"
