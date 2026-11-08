@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 1.0,
+    "both_rate": 1.0,
+    "seconds": 39.8
+  },
+  "rows": [
+    {
+      "question": "What CIDR is assigned to the lab VPC?",
+      "raw": "{\"answer\": \"The training lab VPC uses CIDR 10.40.0.0/16.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the CIDR for the training VPC.",
+      "raw": "{\"answer\": \"The training lab VPC uses CIDR 10.40.0.0/16.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the lab VPC address range?",
+      "raw": "{\"answer\": \"The training lab VPC uses CIDR 10.40.0.0/16.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the training VM subnet CIDR?",
+      "raw": "{\"answer\": \"Training VMs use subnet 10.40.2.0/24.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the subnet used by training VMs.",
+      "raw": "{\"answer\": \"Training VMs use subnet 10.40.2.0/24.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which CIDR identifies the VM subnet?",
+      "raw": "{\"answer\": \"Training VMs use subnet 10.40.2.0/24.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which IP serves as the VM gateway?",
+      "raw": "{\"answer\": \"The default gateway is 10.40.2.1.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What gateway should a VM use?",
+      "raw": "{\"answer\": \"The default gateway is 10.40.2.1.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the default gateway IP.",
+      "raw": "{\"answer\": \"The default gateway is 10.40.2.1.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Where is the lab DNS resolver?",
+      "raw": "{\"answer\": \"The lab DNS resolver is 10.40.0.53.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which resolver IP is configured?",
+      "raw": "{\"answer\": \"The lab DNS resolver is 10.40.0.53.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the DNS server address.",
+      "raw": "{\"answer\": \"The lab DNS resolver is 10.40.0.53.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What host handles SSH access?",
+      "raw": "{\"answer\": \"SSH access goes through bastion.lab.example.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Name the SSH bastion host.",
+      "raw": "{\"answer\": \"SSH access goes through bastion.lab.example.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which host provides SSH entry to the VMs?",
+      "raw": "{\"answer\": \"SSH access goes through bastion.lab.example.\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What firewall rules are enabled?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Who approves new lab accounts?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "What is the password rotation policy?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Are SSH logins audited?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "What is the maximum network bandwidth?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Is there a network rollback procedure?",
+      "raw": "{\"answer\": \"This FAQ does not cover that. Please ask the lab staff to confirm.\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": true
+    }
+  ]
+}

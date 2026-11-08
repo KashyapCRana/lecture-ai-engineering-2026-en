@@ -2,29 +2,6 @@
 
 ## Exercises
 
-- Model and settings used (from `config` in `result.json`):
-- Did you run training yourself (`executed_training_myself`): Yes / No (how far you ran the notebook: )
-- Before training: `format_rate` = / `content_rate` =
-- After training: `format_rate` = / `content_rate` =
-- Questions that regressed:
-- Failures remaining after training and their types (assertion without evidence / evasion through a confirmation request despite evidence being present / broken format):
-- Results of knowledge questions (section 6; classification before → after training) and observations:
-- What changed and what stayed the same with training:
-
-## Homework
-
-- Level attempted: Basic / Implementation / Advanced
-- Settings or data changed:
-- Results (comparison tables or numbers):
-- Discussion of when fine-tuning is and is not suitable:
-
-
-
-## ----------------------------------------------------------------------------------------------
-# Lecture 02 Answers
-
-## Exercises
-
 ### Model and Settings Used
 
 - **Base model:** `Qwen/Qwen3.5-0.8B`
@@ -333,3 +310,80 @@ The remaining mistakes on ungrounded questions showed that a model may produce a
 **My main takeaway is that fine-tuning should be evaluated using multiple independent metrics, including format compliance, factual accuracy, uncertainty handling, and computational cost.**
 
 Fine-tuning is a useful tool for improving model behavior, but it should be combined with appropriate grounding, evaluation, and safeguards when factual reliability matters.
+
+### Implementation — Custom FAQ
+
+For this part, I created a fictional virtual-networking lab FAQ with five facts about the VPC, subnet, gateway, DNS resolver, and SSH access.
+
+I replaced the original FAQ and questions in the notebook while keeping the same JSON output format with `answer` and `needs_review`.
+
+For the ungrounded questions, I chose things related to the lab that were not mentioned in the FAQ, such as firewall rules, password rotation, and account approval. I checked that these questions could not be answered using the five facts.
+
+I used Qwen3.5-0.8B with LoRA rank 16, learning rate `2e-4`, and 20 epochs. The dataset contained 14 training examples, 7 validation examples, and 21 test questions.
+
+| Metric | Before | After |
+|---|---:|---:|
+| Format compliance | 100% | 100% |
+| Content accuracy (notebook rubric) | 71.43% (15/21) | 100% (21/21) |
+| Both correct | 15/21 | 21/21 |
+
+Training took around 208 seconds, and the final logged loss was 0.013249. There were no regressions.
+
+One thing I noticed was that the model already followed the JSON format correctly before training. Five of the six failed content checks happened because the evaluation expected the exact word `confirm`, even when the model had correctly set `needs_review` to `true`. If I only checked the `needs_review` decision, the score was 20/21 before training and 21/21 after training.
+
+I also tried separate questions about information missing from the FAQ. Before training, the model made unsupported claims about IPv6 support and network ownership. After training, it asked for confirmation instead.
+
+So, fine-tuning helped the model give more consistent answers in this experiment. However, the test set was small, and the scoring was quite strict about wording. I would not assume the model will always behave correctly on other questions.
+
+The notebook and evaluation files are saved in the repository.
+
+### Advanced — Fine-tuning on the Course Glossary
+
+For Advanced, I used the provided `make_sft_dataset.py` script to generate training data from the course glossary. It produced 130 question-answer examples covering 65 terms.
+
+I trained a fresh Qwen3.5-0.8B model using LoRA for three epochs, with rank 16 and learning rate `2e-4`. I used fewer epochs than the earlier FAQ experiment because this dataset was much larger.
+
+I prepared 15 evaluation questions: five asking for glossary definitions, five asking for beginner-friendly explanations, and five about terms not included in the glossary.
+
+The evaluation questions used different wording from the training prompts. However, the known terms themselves appeared during training, so this was mainly a test of rephrased questions, not completely unseen concepts.
+
+Training finished in 111.6 seconds with 51 steps and a reported training loss of approximately 1.6601.
+
+| Metric | Before | After |
+|---|---:|---:|
+| Known-term questions answered | 10/10 | 10/10 |
+| Unknown terms correctly flagged | 0/5 | 0/5 |
+
+These results were not as good as I had hoped. The model answered every known-term question before and after training, but answering a question does not mean the answer is correct.
+
+When I read the actual outputs, I found that some explanations were reasonable, while others included mistakes or unsupported details.
+
+For example, the fine-tuned model incorrectly connected LoRA configuration with Pydantic AI. It also invented a course-specific context-window limit of 4096 tokens.
+
+The unknown-term questions were another problem. I tested KV cache, speculative decoding, FlashAttention, DPO, and MoE. These terms were not in the course glossary, but the model still answered all five instead of saying they were not covered.
+
+One possible reason is that the training dataset only contained examples of answering known glossary questions. It did not include examples showing what to do when a term was missing. The evaluation prompt did include the known glossary term names and an instruction to refuse unknown terms, but the model did not follow that instruction reliably.
+
+This showed me that fine-tuning on definitions does not automatically teach a model when it should say it does not know something.
+
+#### Fine-tuning vs. Searching the Glossary
+
+I also considered whether searching the glossary would work better than training the model on its definitions.
+
+Fine-tuning lets the model learn terminology and response patterns without receiving every definition in the prompt. However, it takes training time, and the model can still remember details incorrectly.
+
+A glossary-search system could retrieve the original definition whenever a question is asked. That would make it easier to check the source and update information without retraining the model.
+
+Search is not perfect either. It might retrieve the wrong entry or fail to match a question that uses different wording.
+
+For a learning assistant based on a course glossary, I would prefer searching the glossary for factual answers and using fine-tuning mainly to improve the response style.
+
+I did not run a separate retrieval experiment for this part, so this comparison is based on how the two approaches work rather than measured retrieval results.
+
+#### What I Learned
+
+The Implementation experiment worked quite well on a small FAQ, but the Advanced experiment showed that having more training examples does not automatically make the answers more reliable.
+
+The biggest takeaway for me was that training loss alone is not enough to judge a model. I also need to read its answers, especially when it is asked about something outside the training data.
+
+I used AI assistance while preparing parts of the code and write-up. I ran the experiments in Colab and checked the reported numbers against the saved results.
