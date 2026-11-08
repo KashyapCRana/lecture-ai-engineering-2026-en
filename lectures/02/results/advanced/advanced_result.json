@@ -1,0 +1,39 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 3,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 192,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "training_examples": 130,
+  "glossary_terms": 65,
+  "evaluation_questions": 15,
+  "training_steps": 51,
+  "training_seconds": 111.6,
+  "training_loss": 1.6600889271380854,
+  "before": {
+    "label": "before",
+    "n": 15,
+    "known_non_refusal_rate": 1.0,
+    "unknown_review_rate": 0.0,
+    "seconds": 180.0
+  },
+  "after": {
+    "label": "after",
+    "n": 15,
+    "known_non_refusal_rate": 1.0,
+    "unknown_review_rate": 0.0,
+    "seconds": 49.5
+  },
+  "executed_training_myself": true,
+  "note": "Known-term responses require manual semantic review. The automated rates measure refusal behavior, not definition accuracy."
+}

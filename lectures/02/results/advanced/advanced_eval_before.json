@@ -1,0 +1,161 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 15,
+    "known_non_refusal_rate": 1.0,
+    "unknown_review_rate": 0.0,
+    "seconds": 180.0
+  },
+  "rows": [
+    {
+      "id": "G1",
+      "category": "grounded",
+      "term": "LoRA",
+      "question": "Give the course definition of LoRA.",
+      "gold_answer": "A PEFT method that freezes pretrained weights, represents weight updates as a low-rank product of two small matrices, and trains only those small matrices. It trains few parameters and saves the results (adapters) in small files. The Lecture 02 exercises cover LoRA.",
+      "response": "**LoRA** stands for **Low-Rank Adaptation**. It is a technique used in Large Language Model (LLM) fine-tuning to improve model performance by reducing the dimensionality of the weight matrices during the training process.\n\nInstead of training the entire model from scratch, LoRA trains a smaller, lightweight adapter layer that is attached to the main model's weights. This adapter is updated incrementally based on the loss signal, allowing the model to learn new patterns while maintaining the original model's stability and speed. It is particularly effective for tasks like code generation, where the model is already highly optimized for specific domains.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "P1",
+      "category": "paraphrased",
+      "term": "LoRA",
+      "question": "How would you explain LoRA to a beginner?",
+      "gold_answer": "A PEFT method that freezes pretrained weights, represents weight updates as a low-rank product of two small matrices, and trains only those small matrices. It trains few parameters and saves the results (adapters) in small files. The Lecture 02 exercises cover LoRA.",
+      "response": "**LoRA (Low-Rank Adaptation)** is a technique used in machine learning to fine-tune large language models (LLMs) without requiring the entire model to be retrained.\n\nHere is a simple explanation:\n\n*   **The Problem:** Training a full model from scratch is extremely expensive and time-consuming.\n*   **The Solution:** LoRA works by creating a \"small\" version of the model (a \"low-rank\" matrix) that is only slightly different from the original. This small version is then trained on a smaller dataset.\n*   **How it works:** During the training process, the model updates only the specific parts of the small version that are most similar to the original. This allows the model to learn new patterns quickly and efficiently while keeping the original model's core knowledge intact.\n*   **Why it's good:** It makes it much faster and cheaper to fine-tune models for specific tasks (",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "G2",
+      "category": "grounded",
+      "term": "QLoRA",
+      "question": "Give the course definition of QLoRA.",
+      "gold_answer": "A method that saves memory by quantizing base-model weights to, for example, 4 bits, then trains with LoRA. This lets smaller GPUs handle larger models. In the Lecture 02 exercises, the model fits in GPU memory, so we train with LoRA and compare memory and output differences when loading in 4-bit in the advanced section.",
+      "response": "QLoRA stands for **Quantized LoRA**. It is a specific variant of the LoRA (Low-Rank Adaptation) technique used in Large Language Model (LLM) fine-tuning.\n\nIn this context, \"LoRA\" refers to a method where a small, trainable projection layer is added to the base model's weights to allow the model to adapt to new tasks without significantly changing its core architecture. \"Quantized\" refers to the reduction of the model's parameters to a smaller, more compact representation (typically using a quantization scheme like INT8 or BF16) to reduce memory usage and computational overhead.\n\nQLoRA combines these two concepts by applying quantization to the LoRA weights, resulting in a smaller, faster, and more memory-efficient version of the model that still retains the necessary adaptability for fine-tuning.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "P2",
+      "category": "paraphrased",
+      "term": "QLoRA",
+      "question": "How would you explain QLoRA to a beginner?",
+      "gold_answer": "A method that saves memory by quantizing base-model weights to, for example, 4 bits, then trains with LoRA. This lets smaller GPUs handle larger models. In the Lecture 02 exercises, the model fits in GPU memory, so we train with LoRA and compare memory and output differences when loading in 4-bit in the advanced section.",
+      "response": "**QLoRA** stands for **Quantized LoRA**. It is a technique used in Large Language Model (LLM) fine-tuning that combines the benefits of **LoRA** (Low-Rank Adaptation) with **Quantization** (reducing model size).\n\nHere is a simple explanation:\n\n*   **LoRA** is a method where you only train a small, lightweight version of the model on a subset of data (the \"adapter\"), rather than training the entire model from scratch. This makes the model much faster and lighter.\n*   **Quantization** is the process of compressing the model's weights into smaller, more efficient numbers (like integers or floats) to reduce memory usage and speed up training.\n*   **QLoRA** is the specific combination where you apply LoRA to a quantized model. This allows you to fine-tune the model with high precision while keeping it extremely lightweight",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "G3",
+      "category": "grounded",
+      "term": "Token",
+      "question": "Give the course definition of Token.",
+      "gold_answer": "The smallest unit an LLM uses to process text. Text is split into fragments of words or characters. API charges, rate limits, and context window sizes are often counted in tokens. Tokenization varies by language; for example, Japanese tends to require more tokens per character than English.",
+      "response": "Token is a fundamental unit of data in the context of Large Language Models (LLMs). It represents a specific sequence of characters (such as letters, numbers, or symbols) that is sent into the model's memory during training or inference.\n\nIn the context of the course glossary, a token is typically defined as a **sequence of characters** that the model processes. This includes the model's own internal representations (like embeddings) and the raw input data (like text or code snippets) that it consumes to generate output. The model uses these tokens to understand the input and produce a response.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "P3",
+      "category": "paraphrased",
+      "term": "Token",
+      "question": "How would you explain Token to a beginner?",
+      "gold_answer": "The smallest unit an LLM uses to process text. Text is split into fragments of words or characters. API charges, rate limits, and context window sizes are often counted in tokens. Tokenization varies by language; for example, Japanese tends to require more tokens per character than English.",
+      "response": "**Token**\n\nIn the context of Large Language Models (LLMs), a **token** is a small, discrete piece of text that represents a single word, letter, or a specific sequence of characters. Think of it as a \"word\" or \"chunk\" of text that the model processes and understands.\n\nFor example, if you type \"Hello World\", the model breaks this sentence down into individual tokens: \"Hello\", \" \", \"World\". The model then analyzes each of these tokens to understand the meaning of the sentence.\n\n**Key Points:**\n*   **Unit of Analysis:** It is the smallest unit the model can process.\n*   **Sequence:** It is not just a single word; it is a sequence of characters that the model understands as a meaningful unit.\n*   **Context:** Tokens are processed within a specific context (usually a conversation or a prompt), where the meaning of a token depends on the surrounding context",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "G4",
+      "category": "grounded",
+      "term": "Context window",
+      "question": "Give the course definition of Context window.",
+      "gold_answer": "The maximum total number of input and output tokens an LLM can handle in one call. Conversation history and tool results must also fit within this limit, making the choice of what to pass to the model important.",
+      "response": "Context window is a fundamental concept in Large Language Model (LLM) architecture and deployment. It refers to the maximum number of tokens (characters or words) that a model can process and remember during its training or inference process.\n\nThis limit is determined by the model's **context window size**, which is typically set by the developer or the platform (such as Hugging Face Hub) to control the model's memory capacity. A larger context window allows the model to retain more information from previous turns, enabling it to understand longer sequences of text, while a smaller window restricts the model's ability to process long-form reasoning or multi-step tasks.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "P4",
+      "category": "paraphrased",
+      "term": "Context window",
+      "question": "How would you explain Context window to a beginner?",
+      "gold_answer": "The maximum total number of input and output tokens an LLM can handle in one call. Conversation history and tool results must also fit within this limit, making the choice of what to pass to the model important.",
+      "response": "Context window refers to the maximum number of tokens (characters or words) that a model can process and remember during a single conversation session.\n\nThink of it as the \"memory limit\" of the AI. Just as a human has a limited amount of information to remember while reading a book, an AI model has a fixed capacity to store context. If you send a long message with many details, the model will remember those details. However, if the message exceeds this limit, the model will forget the previous information and start fresh, which can lead to errors or hallucinations.\n\nFor example, if you ask a question about a specific movie plot, the model will remember the plot details. If you then ask a question about a different movie, the model might not know the details from the first conversation, which could cause it to make incorrect answers.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "G5",
+      "category": "grounded",
+      "term": "Human-in-the-loop",
+      "question": "Give the course definition of Human-in-the-loop.",
+      "gold_answer": "Incorporating human confirmation or approval into agent processing. Used before operations that are difficult to undo, such as writing or sending data. In Pydantic AI, tools with requires_approval=True support this.",
+      "response": "Human-in-the-loop is a concept in artificial intelligence and software development where a human operator actively participates in the development, testing, or deployment of an AI system. This process ensures that the AI's behavior is aligned with human goals, safety, and ethical standards, rather than operating in a vacuum.\n\nIn this model, the human provides feedback, instructions, or oversight during the AI's execution. This feedback loop allows the AI to learn from real-world scenarios, correct its behavior, and improve its performance over time. It is a critical component of responsible AI development, ensuring that AI systems are safe, ethical, and aligned with human values.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "P5",
+      "category": "paraphrased",
+      "term": "Human-in-the-loop",
+      "question": "How would you explain Human-in-the-loop to a beginner?",
+      "gold_answer": "Incorporating human confirmation or approval into agent processing. Used before operations that are difficult to undo, such as writing or sending data. In Pydantic AI, tools with requires_approval=True support this.",
+      "response": "Human-in-the-loop is a collaborative process where a human operator actively participates in the development or testing of an AI system. Unlike a \"black box\" where the AI makes decisions without human oversight, this method ensures that the final output is aligned with human goals, safety, and ethical standards.\n\nIn this setup, the human provides feedback, instructions, or validation during the AI's workflow. This feedback helps the AI learn better, prevents it from making errors or hallucinating information, and ensures the system behaves correctly in real-world scenarios. It is a crucial step in building trustworthy AI systems that can be trusted by users.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "U1",
+      "category": "ungrounded",
+      "term": "KV cache",
+      "question": "What is KV cache?",
+      "gold_answer": "Not covered in the course glossary; request review.",
+      "response": "KV Cache is a memory structure used in deep learning models, particularly in transformers and other large language models, to store key-value pairs. It is a cache of the model's parameters, where the keys are typically the input tokens and the values are the corresponding output tokens. This structure helps the model efficiently store and retrieve information during the training and inference processes, optimizing memory usage and computational efficiency.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "U2",
+      "category": "ungrounded",
+      "term": "Speculative decoding",
+      "question": "What is Speculative decoding?",
+      "gold_answer": "Not covered in the course glossary; request review.",
+      "response": "Speculative decoding is a technique used in Large Language Models (LLMs) to improve efficiency and accuracy by generating multiple candidate completions for a single input token before the model makes a final decision. Instead of waiting for the entire sequence of tokens to be generated and then evaluating them, the model attempts to generate several potential next tokens simultaneously.\n\nThis process is often implemented using a mechanism called **token prediction** or **token generation**. The model uses a probability distribution over all possible next tokens to select the most likely candidate. Once a candidate is generated, the model can then evaluate it against the target output to determine if it is correct or if it is a \"hallucination.\" If the candidate is incorrect, the model can discard it and try another one, potentially converging on the correct answer more quickly than if it had to wait for the full sequence.\n\nThis approach is particularly useful in scenarios where the model is constrained by memory or computational resources, as",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "U3",
+      "category": "ungrounded",
+      "term": "FlashAttention",
+      "question": "What is FlashAttention?",
+      "gold_answer": "Not covered in the course glossary; request review.",
+      "response": "FlashAttention is a memory-efficient attention mechanism introduced in the Hugging Face Transformers library. It reduces the memory footprint of attention by using a \"flash\" technique to store only the most recent $k$ tokens in the attention matrix, rather than storing the entire matrix. This allows the model to process larger sequences with less VRAM, making it particularly useful for large-scale models like Llama-3-8B and Llama-3-70B.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "U4",
+      "category": "ungrounded",
+      "term": "Direct Preference Optimization (DPO)",
+      "question": "What is Direct Preference Optimization (DPO)?",
+      "gold_answer": "Not covered in the course glossary; request review.",
+      "response": "Direct Preference Optimization (DPO) is a supervised learning technique used to align an agent's behavior with a human preference. It works by training a model to minimize the difference between the agent's predicted actions and the human's preferred actions.\n\nThe process typically involves:\n1.  **Generating a Preference**: The human provides a set of actions they want the agent to take.\n2.  **Generating a Reward**: The model generates a reward signal indicating how good each action is relative to the human's preference.\n3.  **Training**: The agent is trained to maximize the reward signal, effectively learning to follow the human's preferences.\n\nDPO is particularly useful for tasks where the agent's behavior is not directly observable, such as in robotics or autonomous driving, where the agent must learn to follow a human's preferred path or behavior.",
+      "refused": false,
+      "manual_correct": null
+    },
+    {
+      "id": "U5",
+      "category": "ungrounded",
+      "term": "Mixture of Experts (MoE)",
+      "question": "What is Mixture of Experts (MoE)?",
+      "gold_answer": "Not covered in the course glossary; request review.",
+      "response": "Mixture of Experts (MoE) is a neural architecture design where a large number of small, fully connected neural networks (Experts) are combined to form a single large model. Instead of having all experts share the same weights, they are connected in a specific way (e.g., a \"star\" or \"tree\" topology) so that only a subset of experts are active at any given time.\n\nThis approach allows the model to be trained on a much smaller dataset while maintaining high performance, as the active experts can be trained independently and then combined. It is particularly useful for tasks like text generation, where the model needs to generate diverse outputs without needing to memorize every possible token combination.",
+      "refused": false,
+      "manual_correct": null
+    }
+  ]
+}
