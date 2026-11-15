@@ -39,6 +39,7 @@ How to grade:
 
 - Judge only readability here. Correctness and suitability for the role are covered by Grounding, Scope, and Hint; do not include them in this criterion
 - The answer addresses the question directly and conveys what is needed concisely
+- For Clarity, mark fail when the same main point is restated at least twice after its initial explanation, even if the statements are accurate.
 - Choose fail if there is excessive paraphrasing or repetition of the same content (for example, repeating the same explanation with "In other words"), or too much explanation unrelated to the question
 
 ## Unresolved Questions (Choose unsure for Answers Covered Here)
