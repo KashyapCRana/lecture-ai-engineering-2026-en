@@ -5,6 +5,7 @@ Rewriting descriptions changes whether the model uses a tool and which arguments
 """
 
 import json
+import random
 from functools import cache
 from pathlib import Path
 
@@ -77,3 +78,61 @@ def get_lecture_summary(lecture: int) -> str:
         available = sorted(p.stem for p in (DATA_DIR / "lectures").glob("*.md"))
         return f"Key points for Lecture {lecture:02d} are not available yet. Available sessions: {', '.join(available)}"
     return path.read_text(encoding="utf-8")
+
+def make_quiz(lecture: int) -> str:
+    """Generate a review question and its answer for a lecture.
+
+    Use this tool when the learner requests a review question
+    or a quiz for a specific lecture.
+    """
+    terms = [
+        entry for entry in load_glossary()
+        if entry["lecture"] == lecture
+    ]
+
+    if not terms:
+        return f"No glossary terms found for Lecture {lecture:02d}."
+
+    selected = random.choice(terms)
+
+    return json.dumps(
+        {
+            "question": f"What does {selected['term']} mean?",
+            "answer": selected["definition"],
+        },
+        ensure_ascii=False,
+    )
+
+
+def save_learning_log(topic: str, note: str) -> str:
+    """Save a learning record in the learning_log directory.
+
+    Use this tool when a learner asks to save something they learned.
+    The user must approve the operation before this tool is executed.
+    """
+    from datetime import datetime, timezone
+    from uuid import uuid4
+
+    if not topic.strip() or not note.strip():
+        return "Cannot save an empty topic or note."
+
+    log_dir = DATA_DIR.parent / "learning_log"
+    log_dir.mkdir(parents=True, exist_ok=True)
+
+    now = datetime.now(timezone.utc)
+    timestamp = now.strftime("%Y%m%dT%H%M%SZ")
+    filename = f"{timestamp}_{uuid4().hex[:8]}.json"
+    filepath = log_dir / filename
+
+    record = {
+        "topic": topic,
+        "note": note,
+        "created_at": now.isoformat(),
+    }
+
+    filepath.write_text(
+        json.dumps(record, indent=2, ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+    return f"Saved learning record to learning_log/{filename}"
