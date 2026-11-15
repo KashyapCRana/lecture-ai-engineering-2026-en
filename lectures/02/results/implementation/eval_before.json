@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.7142857142857143,
+    "both_rate": 0.7142857142857143,
+    "seconds": 83.2
+  },
+  "rows": [
+    {
+      "question": "What CIDR is assigned to the lab VPC?",
+      "raw": "{\n  \"answer\": \"The training lab VPC uses CIDR 10.40.0.0/16.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the CIDR for the training VPC.",
+      "raw": "{\n  \"answer\": \"The training VPC uses CIDR 10.40.0.0/16.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the lab VPC address range?",
+      "raw": "{\n  \"answer\": \"The lab VPC address range is 10.40.0.0/16.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What is the training VM subnet CIDR?",
+      "raw": "{\n  \"answer\": \"10.40.2.0/24\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the subnet used by training VMs.",
+      "raw": "{\n  \"answer\": \"The subnet used by training VMs is 10.40.2.0/24.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which CIDR identifies the VM subnet?",
+      "raw": "{\n  \"answer\": \"10.40.2.0/24\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which IP serves as the VM gateway?",
+      "raw": "{\n  \"answer\": \"10.40.2.1\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What gateway should a VM use?",
+      "raw": "{\n  \"answer\": \"The VM should use the default gateway 10.40.2.1.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the default gateway IP.",
+      "raw": "{\n  \"answer\": \"10.40.2.1\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Where is the lab DNS resolver?",
+      "raw": "{\n  \"answer\": \"The lab DNS resolver is 10.40.0.53.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which resolver IP is configured?",
+      "raw": "{\n  \"answer\": \"10.40.0.53\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "State the DNS server address.",
+      "raw": "{\n  \"answer\": \"The lab DNS resolver is 10.40.0.53.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What host handles SSH access?",
+      "raw": "{\n  \"answer\": \"SSH access goes through bastion.lab.example.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Name the SSH bastion host.",
+      "raw": "{\n  \"answer\": \"bastion.lab.example\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "Which host provides SSH entry to the VMs?",
+      "raw": "{\n  \"answer\": \"SSH access goes through bastion.lab.example.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "What firewall rules are enabled?",
+      "raw": "{\n  \"answer\": \"The training lab VPC uses CIDR 10.40.0.0/16, and the default gateway is 10.40.2.1. The lab DNS resolver is 10.40.0.53. SSH access goes through bastion.lab.example. However, the provided FAQ does not explicitly state which firewall rules are enabled.\",\n  \"needs_review\": true\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Who approves new lab accounts?",
+      "raw": "{\n  \"answer\": \"The lab staff approves new lab accounts.\",\n  \"needs_review\": false\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "What is the password rotation policy?",
+      "raw": "{\n  \"answer\": \"The provided FAQ does not contain information regarding the password rotation policy.\",\n  \"needs_review\": true\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Are SSH logins audited?",
+      "raw": "{\n  \"answer\": \"No, the FAQ does not explicitly state whether SSH logins are audited. However, it does mention that SSH access goes through a bastion lab.example, which implies that access is controlled and monitored, but it does not provide specific details about audit logging or auditing mechanisms.\",\n  \"needs_review\": true\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "What is the maximum network bandwidth?",
+      "raw": "{\n  \"answer\": \"The FAQ does not cover the maximum network bandwidth.\",\n  \"needs_review\": true\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "Is there a network rollback procedure?",
+      "raw": "{\n  \"answer\": \"No, the provided FAQ does not contain information regarding a network rollback procedure.\",\n  \"needs_review\": true\n}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}
