@@ -1,0 +1,2886 @@
+[
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 8216,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048",
+      "lec02-main-p059",
+      "lec02-main-p055",
+      "lec02-main-p046"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 12,
+    "selected_count": 9,
+    "context_chars": 13508,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 6,
+    "selected_count": 6,
+    "context_chars": 9785,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p059",
+      "lec02-main-p048",
+      "lec02-main-p058",
+      "lec01-main-p007"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 9,
+    "context_chars": 13989,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048",
+      "lec02-main-p059",
+      "lec02-main-p055",
+      "lec02-main-p046",
+      "lec03-main-p037"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13949,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048",
+      "lec02-main-p059",
+      "lec02-main-p058",
+      "lec03-main-p017"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 9,
+    "context_chars": 13809,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048",
+      "lec02-main-p059",
+      "lec02-main-p055",
+      "lec02-main-p046",
+      "lec03-main-p037"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13925,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q01",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054"
+    ],
+    "selected_ids": [
+      "lec02-main-p052",
+      "lec02-main-p051",
+      "lec02-main-p060",
+      "lec02-main-p047",
+      "lec02-main-p054",
+      "lec02-main-p048",
+      "lec02-main-p059",
+      "lec02-main-p055",
+      "lec02-main-p046"
+    ],
+    "gold_ids": [
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 12,
+    "selected_count": 9,
+    "context_chars": 13532,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 7967,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec01-main-p048",
+      "lec02-main-p028",
+      "lec01-main-p020",
+      "lec02-main-p012"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 15,
+    "selected_count": 10,
+    "context_chars": 13999,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec02-main-p015",
+      "lec02-main-p022",
+      "lec01-main-p016"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 15,
+    "selected_count": 9,
+    "context_chars": 13395,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p036",
+      "lec02-main-p014",
+      "lec02-main-p015",
+      "lec01-main-p048"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 94,
+    "selected_count": 9,
+    "context_chars": 13701,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec01-main-p048",
+      "lec02-main-p028",
+      "lec02-main-p015"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 96,
+    "selected_count": 9,
+    "context_chars": 13831,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec02-main-p015",
+      "lec02-main-p022",
+      "lec01-main-p048"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 96,
+    "selected_count": 9,
+    "context_chars": 13733,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec01-main-p048",
+      "lec02-main-p028",
+      "lec01-main-p020",
+      "lec02-main-p026"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 94,
+    "selected_count": 10,
+    "context_chars": 13860,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q02",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec01-main-p049",
+      "lec02-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p047",
+      "lec02-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p049",
+      "lec01-main-p019",
+      "lec02-main-p013",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p014",
+      "lec01-main-p048",
+      "lec02-main-p028",
+      "lec02-main-p015"
+    ],
+    "gold_ids": [
+      "lec01-main-p049"
+    ],
+    "gold_found": [
+      "lec01-main-p049"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 21,
+    "selected_count": 9,
+    "context_chars": 13749,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 5954,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec03-main-p009",
+      "lec03-main-p064",
+      "lec03-main-p012",
+      "lec03-main-p014",
+      "lec03-main-p039"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 15,
+    "selected_count": 10,
+    "context_chars": 11373,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec02-main-p018",
+      "lec03-main-p009",
+      "lec03-main-p063",
+      "lec03-main-p064",
+      "lec02-main-p010"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 14,
+    "selected_count": 10,
+    "context_chars": 13634,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec01-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p005",
+      "lec03-main-p003",
+      "lec03-main-p009"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 69,
+    "selected_count": 10,
+    "context_chars": 13293,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec03-main-p009",
+      "lec03-main-p039",
+      "lec03-main-p064",
+      "lec02-main-p018",
+      "lec03-main-p012"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 73,
+    "selected_count": 10,
+    "context_chars": 12586,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec02-main-p018",
+      "lec03-main-p009",
+      "lec02-main-p010",
+      "lec03-main-p010",
+      "lec03-main-p039"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 72,
+    "selected_count": 10,
+    "context_chars": 12167,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec03-main-p009",
+      "lec03-main-p014",
+      "lec03-main-p039",
+      "lec03-main-p064",
+      "lec02-main-p014"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 72,
+    "selected_count": 10,
+    "context_chars": 12169,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q03",
+    "query": "long context lost in the middle information overlooked",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p008",
+      "lec03-main-p065",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec02-main-p015",
+      "lec03-main-p038",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p013",
+      "lec03-main-p009",
+      "lec03-main-p064",
+      "lec03-main-p012",
+      "lec03-main-p039",
+      "lec02-main-p018"
+    ],
+    "gold_ids": [
+      "lec02-main-p015"
+    ],
+    "gold_found": [
+      "lec02-main-p015"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 20,
+    "selected_count": 10,
+    "context_chars": 12523,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 6434,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053",
+      "lec02-main-p028",
+      "lec02-main-p048",
+      "lec02-main-p049",
+      "lec02-main-p045",
+      "lec02-main-p051"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 13543,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p050",
+      "lec02-main-p027",
+      "lec02-main-p053",
+      "lec02-main-p057",
+      "lec02-main-p020",
+      "lec02-main-p028"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 8,
+    "selected_count": 8,
+    "context_chars": 10854,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053",
+      "lec02-main-p057",
+      "lec02-main-p058",
+      "lec02-main-p028",
+      "lec02-main-p004",
+      "lec02-main-p020"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 68,
+    "selected_count": 10,
+    "context_chars": 13456,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p050",
+      "lec02-main-p027",
+      "lec02-main-p053",
+      "lec02-main-p028",
+      "lec02-main-p057",
+      "lec02-main-p020",
+      "lec02-main-p048",
+      "lec02-main-p045"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 68,
+    "selected_count": 10,
+    "context_chars": 13091,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p050",
+      "lec02-main-p027",
+      "lec02-main-p053",
+      "lec02-main-p057",
+      "lec02-main-p020",
+      "lec02-main-p028",
+      "lec02-main-p058",
+      "lec02-main-p004"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 68,
+    "selected_count": 10,
+    "context_chars": 13496,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053",
+      "lec02-main-p028",
+      "lec02-main-p048",
+      "lec02-main-p049",
+      "lec02-main-p057",
+      "lec02-main-p045"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 68,
+    "selected_count": 10,
+    "context_chars": 12991,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q04",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec02-main-p047",
+      "lec02-main-p046",
+      "lec02-main-p027",
+      "lec02-main-p050",
+      "lec02-main-p053"
+    ],
+    "selected_ids": [
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p050",
+      "lec02-main-p027",
+      "lec02-main-p053",
+      "lec02-main-p028",
+      "lec02-main-p057",
+      "lec02-main-p020",
+      "lec02-main-p048",
+      "lec02-main-p045"
+    ],
+    "gold_ids": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_found": [
+      "lec02-main-p047",
+      "lec02-main-p050"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 15,
+    "selected_count": 10,
+    "context_chars": 13001,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 7771,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p045",
+      "lec02-main-p050",
+      "lec02-main-p057",
+      "lec02-main-p059",
+      "lec02-main-p053"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 11,
+    "selected_count": 10,
+    "context_chars": 13350,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 7795,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p011",
+      "lec01-main-p048",
+      "lec02-main-p060",
+      "lec02-main-p045",
+      "lec02-main-p050"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13541,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p045",
+      "lec02-main-p050",
+      "lec02-main-p057",
+      "lec02-main-p059",
+      "lec02-main-p011"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13685,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p011",
+      "lec01-main-p048",
+      "lec02-main-p060",
+      "lec02-main-p045",
+      "lec02-main-p050"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13566,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p045",
+      "lec02-main-p050",
+      "lec02-main-p057",
+      "lec02-main-p059",
+      "lec02-main-p011"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 95,
+    "selected_count": 10,
+    "context_chars": 13660,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q05",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p046",
+      "lec02-main-p058",
+      "lec02-main-p047"
+    ],
+    "selected_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052",
+      "lec02-main-p058",
+      "lec02-main-p046",
+      "lec02-main-p047",
+      "lec02-main-p045",
+      "lec02-main-p050",
+      "lec02-main-p057",
+      "lec02-main-p059",
+      "lec02-main-p053"
+    ],
+    "gold_ids": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_found": [
+      "lec02-main-p051",
+      "lec02-main-p052"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 11,
+    "selected_count": 10,
+    "context_chars": 13374,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_recall": 0.5,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 5279,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p043",
+      "lec01-main-p028",
+      "lec01-main-p036"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_recall": 0.5,
+    "candidate_count": 11,
+    "selected_count": 10,
+    "context_chars": 9955,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p013",
+      "lec01-main-p026",
+      "lec01-main-p033",
+      "lec01-main-p034"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_recall": 0.5,
+    "candidate_count": 9,
+    "selected_count": 9,
+    "context_chars": 9843,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec02-main-p039",
+      "lec01-main-p058",
+      "lec01-main-p013",
+      "lec01-main-p063",
+      "lec02-main-p059"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 110,
+    "selected_count": 10,
+    "context_chars": 12320,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p013",
+      "lec01-main-p043",
+      "lec02-main-p039"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 110,
+    "selected_count": 10,
+    "context_chars": 11082,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p013",
+      "lec02-main-p039",
+      "lec01-main-p026",
+      "lec01-main-p033",
+      "lec01-main-p034"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 110,
+    "selected_count": 10,
+    "context_chars": 11170,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p043",
+      "lec02-main-p039",
+      "lec01-main-p028"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 110,
+    "selected_count": 10,
+    "context_chars": 10542,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q06",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p013",
+      "lec01-main-p043",
+      "lec01-main-p033"
+    ],
+    "gold_ids": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_recall": 0.5,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 10710,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 5790,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p004",
+      "lec03-main-p020",
+      "lec03-main-p026",
+      "lec03-main-p011",
+      "lec03-main-p013"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 15,
+    "selected_count": 10,
+    "context_chars": 11132,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p014",
+      "lec03-main-p020",
+      "lec03-main-p017",
+      "lec03-main-p025",
+      "lec03-main-p026"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 11150,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec02-main-p062",
+      "lec01-main-p050",
+      "lec02-main-p041",
+      "lec03-main-p004",
+      "lec03-main-p014"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 100,
+    "selected_count": 10,
+    "context_chars": 12155,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p026",
+      "lec03-main-p004",
+      "lec03-main-p020",
+      "lec03-main-p014",
+      "lec03-main-p017"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 102,
+    "selected_count": 10,
+    "context_chars": 10987,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p014",
+      "lec03-main-p017",
+      "lec03-main-p025",
+      "lec03-main-p026",
+      "lec03-main-p043"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 102,
+    "selected_count": 10,
+    "context_chars": 10901,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p004",
+      "lec03-main-p026",
+      "lec03-main-p020",
+      "lec03-main-p011",
+      "lec03-main-p013"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 102,
+    "selected_count": 10,
+    "context_chars": 11213,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q07",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec03-main-p027",
+      "lec03-main-p048",
+      "lec03-main-p012",
+      "lec03-main-p019",
+      "lec03-main-p003"
+    ],
+    "selected_ids": [
+      "lec03-main-p027",
+      "lec03-main-p012",
+      "lec03-main-p048",
+      "lec03-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p020",
+      "lec03-main-p026",
+      "lec03-main-p004",
+      "lec03-main-p014",
+      "lec03-main-p017"
+    ],
+    "gold_ids": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_found": [
+      "lec03-main-p012",
+      "lec03-main-p027"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 20,
+    "selected_count": 10,
+    "context_chars": 10906,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 5738,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p037",
+      "lec03-main-p041",
+      "lec03-main-p012"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 11,
+    "selected_count": 10,
+    "context_chars": 10146,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p067",
+      "lec03-main-p015"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 9,
+    "selected_count": 9,
+    "context_chars": 10883,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p066",
+      "lec01-main-p019",
+      "lec02-main-p061",
+      "lec03-main-p003",
+      "lec03-main-p004"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 79,
+    "selected_count": 10,
+    "context_chars": 13795,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p067",
+      "lec03-main-p037",
+      "lec03-main-p041"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 80,
+    "selected_count": 10,
+    "context_chars": 11269,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p067",
+      "lec03-main-p015",
+      "lec01-main-p019"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 80,
+    "selected_count": 10,
+    "context_chars": 13376,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p037",
+      "lec03-main-p041",
+      "lec03-main-p012"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 79,
+    "selected_count": 10,
+    "context_chars": 10236,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q08",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013"
+    ],
+    "selected_ids": [
+      "lec03-main-p040",
+      "lec03-main-p065",
+      "lec03-main-p039",
+      "lec03-main-p038",
+      "lec03-main-p013",
+      "lec03-main-p014",
+      "lec03-main-p066",
+      "lec03-main-p067",
+      "lec03-main-p037",
+      "lec03-main-p041"
+    ],
+    "gold_ids": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_found": [
+      "lec03-main-p039",
+      "lec03-main-p040",
+      "lec03-main-p065"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 11178,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 5619,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p014",
+      "lec03-main-p010",
+      "lec03-main-p012",
+      "lec03-main-p033",
+      "lec03-main-p066"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 9714,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p070",
+      "lec03-main-p014",
+      "lec03-main-p029",
+      "lec03-main-p030",
+      "lec03-main-p066"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 10,
+    "selected_count": 10,
+    "context_chars": 12047,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec01-main-p058",
+      "lec01-main-p019",
+      "lec03-main-p003",
+      "lec03-main-p070",
+      "lec03-main-p033"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 104,
+    "selected_count": 10,
+    "context_chars": 13886,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p014",
+      "lec03-main-p070",
+      "lec01-main-p058",
+      "lec03-main-p010",
+      "lec03-main-p012"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 106,
+    "selected_count": 10,
+    "context_chars": 11729,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p070",
+      "lec03-main-p014",
+      "lec01-main-p058",
+      "lec01-main-p019",
+      "lec03-main-p029"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 105,
+    "selected_count": 10,
+    "context_chars": 13970,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p014",
+      "lec01-main-p058",
+      "lec03-main-p010",
+      "lec03-main-p012",
+      "lec03-main-p033"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 106,
+    "selected_count": 10,
+    "context_chars": 10192,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q09",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008"
+    ],
+    "selected_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013",
+      "lec03-main-p032",
+      "lec03-main-p065",
+      "lec03-main-p008",
+      "lec03-main-p014",
+      "lec03-main-p070",
+      "lec03-main-p066",
+      "lec03-main-p010",
+      "lec03-main-p012"
+    ],
+    "gold_ids": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_found": [
+      "lec03-main-p009",
+      "lec03-main-p013"
+    ],
+    "gold_recall": 1.0,
+    "candidate_count": 16,
+    "selected_count": 10,
+    "context_chars": 11259,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "vector_only",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 5,
+    "selected_count": 5,
+    "context_chars": 7407,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "vector_adjacent",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061",
+      "lec02-main-p004",
+      "lec02-main-p062",
+      "lec02-main-p002",
+      "lec02-main-p014",
+      "lec02-main-p060"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 15,
+    "selected_count": 10,
+    "context_chars": 13767,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "vector_tree",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061",
+      "lec02-main-p057",
+      "lec02-main-p010",
+      "lec02-main-p015",
+      "lec02-main-p062",
+      "lec03-main-p018"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 13,
+    "selected_count": 10,
+    "context_chars": 13312,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "vector_graph",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec02-main-p003",
+      "lec03-main-p019",
+      "lec02-main-p061",
+      "lec02-main-p020",
+      "lec01-main-p056",
+      "lec01-main-p058",
+      "lec02-main-p029",
+      "lec03-main-p018"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 137,
+    "selected_count": 10,
+    "context_chars": 13847,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "hybrid",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec02-main-p003",
+      "lec03-main-p019",
+      "lec02-main-p061",
+      "lec02-main-p062",
+      "lec02-main-p057",
+      "lec03-main-p020",
+      "lec03-main-p063",
+      "lec03-main-p018"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 138,
+    "selected_count": 10,
+    "context_chars": 13438,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "hybrid_no_adjacent",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec02-main-p003",
+      "lec03-main-p019",
+      "lec02-main-p061",
+      "lec02-main-p057",
+      "lec02-main-p010",
+      "lec02-main-p015",
+      "lec02-main-p062",
+      "lec03-main-p018"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 137,
+    "selected_count": 10,
+    "context_chars": 13375,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "hybrid_no_tree",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec02-main-p003",
+      "lec03-main-p019",
+      "lec02-main-p061",
+      "lec02-main-p004",
+      "lec02-main-p062",
+      "lec02-main-p014",
+      "lec02-main-p060",
+      "lec03-main-p020"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 138,
+    "selected_count": 10,
+    "context_chars": 13972,
+    "max_chars": 14000,
+    "max_pages": 10
+  },
+  {
+    "question": "Q10",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "variant": "hybrid_no_graph",
+    "seed_ids": [
+      "lec03-main-p064",
+      "lec02-main-p013",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061"
+    ],
+    "selected_ids": [
+      "lec02-main-p013",
+      "lec03-main-p064",
+      "lec03-main-p019",
+      "lec02-main-p003",
+      "lec02-main-p061",
+      "lec02-main-p062",
+      "lec02-main-p057",
+      "lec03-main-p020",
+      "lec03-main-p063",
+      "lec03-main-p018"
+    ],
+    "gold_ids": [],
+    "gold_found": [],
+    "gold_recall": null,
+    "candidate_count": 19,
+    "selected_count": 10,
+    "context_chars": 13375,
+    "max_chars": 14000,
+    "max_pages": 10
+  }
+]

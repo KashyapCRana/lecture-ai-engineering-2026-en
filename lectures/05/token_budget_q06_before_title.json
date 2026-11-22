@@ -1,0 +1,273 @@
+[
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_only",
+    "budget": 1600,
+    "actual_retrieval_tokens": 1428,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_adjacent",
+    "budget": 1600,
+    "actual_retrieval_tokens": 1564,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid",
+    "budget": 1600,
+    "actual_retrieval_tokens": 1553,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid_no_graph",
+    "budget": 1600,
+    "actual_retrieval_tokens": 1538,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_only",
+    "budget": 2200,
+    "actual_retrieval_tokens": 1428,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_adjacent",
+    "budget": 2200,
+    "actual_retrieval_tokens": 2125,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p034",
+      "lec01-main-p036"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid",
+    "budget": 2200,
+    "actual_retrieval_tokens": 1894,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid_no_graph",
+    "budget": 2200,
+    "actual_retrieval_tokens": 1876,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_only",
+    "budget": 3200,
+    "actual_retrieval_tokens": 1428,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "vector_adjacent",
+    "budget": 3200,
+    "actual_retrieval_tokens": 3195,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p034",
+      "lec01-main-p036",
+      "lec01-main-p039",
+      "lec01-main-p043",
+      "lec01-main-p026",
+      "lec01-main-p028"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid",
+    "budget": 3200,
+    "actual_retrieval_tokens": 3147,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p013",
+      "lec01-main-p043",
+      "lec02-main-p039"
+    ],
+    "gold_found": [
+      "lec01-main-p035",
+      "lec02-main-p039"
+    ],
+    "gold_missing": [],
+    "gold_recall": 1.0
+  },
+  {
+    "case": "Q06",
+    "model": "gemini-3.1-flash-lite",
+    "variant": "hybrid_no_graph",
+    "budget": 3200,
+    "actual_retrieval_tokens": 3077,
+    "selected_ids": [
+      "lec01-main-p035",
+      "lec01-main-p040",
+      "lec01-main-p041",
+      "lec01-main-p042",
+      "lec01-main-p027",
+      "lec01-main-p026",
+      "lec01-main-p034",
+      "lec01-main-p013",
+      "lec01-main-p043",
+      "lec01-main-p033"
+    ],
+    "gold_found": [
+      "lec01-main-p035"
+    ],
+    "gold_missing": [
+      "lec02-main-p039"
+    ],
+    "gold_recall": 0.5
+  }
+]

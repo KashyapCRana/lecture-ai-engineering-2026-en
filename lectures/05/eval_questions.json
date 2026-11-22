@@ -1,0 +1,72 @@
+[
+  {
+    "id": "Q01",
+    "category": "single_page",
+    "query": "LoRA frozen original weights trained A B matrices QLoRA 4 bit",
+    "question": "What does LoRA freeze and train, and what does QLoRA add?",
+    "gold": ["lec02-main-p052"]
+  },
+  {
+    "id": "Q02",
+    "category": "single_page",
+    "query": "RAG chatbot preparation filtering chunking indexing search generate sources",
+    "question": "What steps prepare lecture materials for RAG, and how does the chatbot answer a question?",
+    "gold": ["lec01-main-p049"]
+  },
+  {
+    "id": "Q03",
+    "category": "single_page",
+    "query": "long context lost in the middle information overlooked",
+    "question": "Why can a model overlook information even when it fits in the context window?",
+    "gold": ["lec02-main-p015"]
+  },
+  {
+    "id": "Q04",
+    "category": "multi_page",
+    "query": "RAG adding knowledge versus fine tuning behavior decision prompts",
+    "question": "Why try RAG or prompts before fine-tuning, and when should fine-tuning be considered?",
+    "gold": ["lec02-main-p047", "lec02-main-p050"]
+  },
+  {
+    "id": "Q05",
+    "category": "adjacent_pages",
+    "query": "full fine tuning LoRA QLoRA train parameters freeze weights memory",
+    "question": "Compare full fine-tuning, LoRA and QLoRA in terms of trainable weights and memory.",
+    "gold": ["lec02-main-p051", "lec02-main-p052"]
+  },
+  {
+    "id": "Q06",
+    "category": "cross_lecture",
+    "query": "AI engineering evaluation few successful examples public benchmark own evaluation set",
+    "question": "Why are a few successful outputs and public model rankings insufficient for evaluating an AI system?",
+    "gold": ["lec01-main-p035", "lec02-main-p039"]
+  },
+  {
+    "id": "Q07",
+    "category": "cross_section",
+    "query": "agent tool results fed back model loop non idempotent retry duplicate email",
+    "question": "How are tool results returned to an agent, and why can retrying a non-idempotent email tool be dangerous?",
+    "gold": ["lec03-main-p012", "lec03-main-p027"]
+  },
+  {
+    "id": "Q08",
+    "category": "multi_page",
+    "query": "compaction history within session memory across sessions OpenClaw nightly notes",
+    "question": "How does compaction differ from cross-session memory, and which daily notes reach long-term memory?",
+    "gold": ["lec03-main-p039", "lec03-main-p040", "lec03-main-p065"]
+  },
+  {
+    "id": "Q09",
+    "category": "cross_section",
+    "query": "system prompt hidden instructions tool descriptions external memory new chat",
+    "question": "How do system prompts differ from external memory that carries information between chats?",
+    "gold": ["lec03-main-p009", "lec03-main-p013"]
+  },
+  {
+    "id": "Q10",
+    "category": "unanswerable",
+    "query": "measured average response time accuracy RAG system built in this exercise",
+    "question": "What are the measured average response time and accuracy of the RAG system we just built?",
+    "gold": []
+  }
+]

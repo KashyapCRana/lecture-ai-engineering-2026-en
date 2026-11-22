@@ -143,6 +143,64 @@ def search(query: str) -> list[dict]:
         return [dict(row) for row in rows]
 
 
+
+def expand_adjacent_pages(hits: list[dict], pages: list[dict],
+                          radius: int = 1) -> list[dict]:
+    """Add neighboring pages without duplicates or crossing documents."""
+    if radius < 0:
+        raise ValueError("radius must be non-negative")
+
+    page_lookup = {
+        (p["document_id"], p["page"]): p
+        for p in pages
+    }
+
+    results = []
+    seen = set()
+
+    # Preserve all original vector hits first.
+    for hit in hits:
+        if hit["page_id"] in seen:
+            continue
+        results.append({
+            **hit,
+            "retrieval_role": "seed",
+            "source_seed": hit["page_id"],
+        })
+        seen.add(hit["page_id"])
+
+    # Expand around the original hits.
+    for hit in hits:
+        for step in range(1, radius + 1):
+            for offset in (-step, step):
+                neighbor = page_lookup.get((
+                    hit["document_id"],
+                    hit["page"] + offset,
+                ))
+
+                if neighbor is None:
+                    continue
+                if neighbor["page_id"] in seen:
+                    continue
+
+                results.append({
+                    **neighbor,
+                    "retrieval_role": "adjacent",
+                    "source_seed": hit["page_id"],
+                    "offset": offset,
+                })
+                seen.add(neighbor["page_id"])
+
+    return results
+
+
+def search_with_adjacent_pages(
+    query: str, radius: int = 1
+) -> list[dict]:
+    """Retrieve vector matches and adjacent pages with citations."""
+    return expand_adjacent_pages(search(query), load_pages(), radius)
+
+
 def search_graph(query: str) -> dict:
     """Start with vector search, then expand candidates through adjacent pages and shared terms."""
     pages = {page["page_id"]: page for page in load_pages(RAG_SOURCE)}
